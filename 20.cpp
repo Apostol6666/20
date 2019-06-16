@@ -41,6 +41,8 @@ int main()
 	if (!WriteRezult(outFileName, rezult)) {
 		cout << "Неизвестная ошибка при выводе точек";
 	};
-
+	
+	delete [] allpoint;
+	
 	return 0;
 }
